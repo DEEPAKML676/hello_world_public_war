@@ -1,18 +1,22 @@
 package com.example;
 
 /**
- * This is a class.
+ * Provides a simple greeting service.
  */
 public class Greeter {
 
   /**
-   * This is a constructor.
+   * Default constructor.
    */
   public Greeter() {
-
   }
 
-  //TODO: Add javadoc comment
+  /**
+   * Returns a formatted greeting string.
+   *
+   * @param someone The name of the person to greet.
+   * @return A greeting string.
+   */
   public String greet(String someone) {
     return String.format("Hello, %s!", someone);
   }
